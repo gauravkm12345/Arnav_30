@@ -3,9 +3,9 @@ sum = 0
 sum1 =0
 while True:
 
-    b = int(input('Enter the number'))
+    b = int(input('Enter your  number'))
     if b % 2 == 0:
-        sum += b
+        sum =sum + b
     else:
         sum1 = sum1 * b
     a = input('Enter a character press q to terminate')
@@ -14,5 +14,5 @@ while True:
     else:
         continue
 
-print('Sum of even Number', sum)
+print('Sum of even Number','=', sum)
 print('Product Of odd number', sum1)
